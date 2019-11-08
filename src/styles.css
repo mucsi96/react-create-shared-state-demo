@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+.App.dark {
+  background-color: #1c2022;
+  color: #a0a7b3;
+}
+
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.theme-switch {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
